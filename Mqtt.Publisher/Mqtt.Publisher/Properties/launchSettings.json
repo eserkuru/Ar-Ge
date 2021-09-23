@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "Mqtt.Publisher": {
+      "commandName": "Project"
+    }
+  }
+}

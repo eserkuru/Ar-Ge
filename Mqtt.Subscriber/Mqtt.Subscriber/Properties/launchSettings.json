@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "Mqtt.Subscriber": {
+      "commandName": "Project"
+    }
+  }
+}
