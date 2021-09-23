@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLocalizerTest", "SharedLocalizerTest\SharedLocalizerTest.csproj", "{5D8CB962-F16B-4B26-A46E-0CAF7C36DC7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{CD274A22-EB74-4CE0-83B8-908225384A01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Util", "Util\Util.csproj", "{6CCBC54C-B5EC-4F9F-B238-FE681286E714}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D8CB962-F16B-4B26-A46E-0CAF7C36DC7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D8CB962-F16B-4B26-A46E-0CAF7C36DC7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D8CB962-F16B-4B26-A46E-0CAF7C36DC7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D8CB962-F16B-4B26-A46E-0CAF7C36DC7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD274A22-EB74-4CE0-83B8-908225384A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD274A22-EB74-4CE0-83B8-908225384A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD274A22-EB74-4CE0-83B8-908225384A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD274A22-EB74-4CE0-83B8-908225384A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CCBC54C-B5EC-4F9F-B238-FE681286E714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CCBC54C-B5EC-4F9F-B238-FE681286E714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CCBC54C-B5EC-4F9F-B238-FE681286E714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CCBC54C-B5EC-4F9F-B238-FE681286E714}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BF37FAD-2081-4D95-86B2-48BB7D9A4511}
+	EndGlobalSection
+EndGlobal

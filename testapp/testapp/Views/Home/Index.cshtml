@@ -1,0 +1,13 @@
+﻿@using System.Net
+@{
+    ViewData["Title"] = "Home Page";
+}
+@{
+    string host = Dns.GetHostName();
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to</h1>
+    <h3> @host</h3>
+    <p>This application is managed by Docker!</p>
+</div>

@@ -1,0 +1,24 @@
+﻿@using Core
+@using Microsoft.Extensions.Localization
+@using SharedLocalizerTest.Controllers
+@using Util.Localization
+@{
+    ViewData["Title"] = "Home Page";
+}
+@inject IStringLocalizer<CoreResource> CoreLocalizer;
+@inject IStringLocalizer<SharedResource> SharedLocalizer;
+@inject IStringLocalizer<HomeController> Localizer;
+
+<div class="text-center">
+    <h2>@CoreLocalizer["Hello Core"]</h2>
+    <h2>@SharedLocalizer["Hello Plugin"]</h2>
+    <h2>@Localizer["Hello Home Controller"]</h2>
+</div>
+
+@*@inject ILanguageService _LanguageService;
+
+    <div class="text-center">
+        <h2>@_LanguageService.Core("Hello Core")</h2>
+        <h2>@_LanguageService.Shared("Hello Plugin")</h2>
+        <h2>@_LanguageService.Local("Hello Home Controller")</h2>
+    </div>*@

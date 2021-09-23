@@ -1,0 +1,21 @@
+﻿.navbar-header-logo {
+    min-width: 160px;
+    height: 60px;
+    padding: .5em;
+}
+
+    .navbar-header-logo .logo-img {
+        max-height: -webkit-fill-available;
+        margin-left: 1.25em;
+    }
+
+.navbar-header-btn {
+    width: 75px;
+}
+    .navbar-header-btn .minimalize-button {
+        margin: 20px 20px 12px 30px;
+    }
+
+.landing-page .nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    border-color: #1ab394;
+}

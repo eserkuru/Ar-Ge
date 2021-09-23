@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>@ViewData["Title"]</title>
+
+    <!-- Meta Tags -->
+    @await Html.PartialAsync("UITemplates/Inspinia/_Meta")
+
+    <!-- Styles -->
+    @await Html.PartialAsync("UITemplates/Inspinia/_Styles")
+    @RenderSection("Styles", required: false)
+
+    <!-- Scripts -->
+    @await Html.PartialAsync("UITemplates/Inspinia/_Scripts_Top")
+    @RenderSection("ScriptsTop", required: false)
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <!-- Headbar -->
+        <div class="row border-bottom">
+            @await Html.PartialAsync("UITemplates/Inspinia/_Headbar")
+        </div>
+
+        <!-- Sidebar -->
+        @await Html.PartialAsync("UITemplates/Inspinia/_Sidebar")
+
+        <!-- Main Container -->
+        <div id="page-wrapper" class="gray-bg">
+
+            <!--Page Header -->
+            <div class="row  border-bottom white-bg dashboard-header">
+                @await Html.PartialAsync("UITemplates/Inspinia/_PageHeader")
+            </div>
+
+            <!--Page Content -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="wrapper wrapper-content">
+                        <div class="row">
+                            @RenderBody()
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--Page Footer -->
+            <div class="footer">
+                @await Html.PartialAsync("UITemplates/Inspinia/_Footer")
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    @await Html.PartialAsync("UITemplates/Inspinia/_Scripts_Bottom")
+    @RenderSection("ScriptsBottom", required: false)
+</body>
+</html>
